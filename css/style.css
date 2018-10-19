@@ -74,7 +74,7 @@ a:hover {
 
 /* BANNER AT MAIN HEADER */
 .container__header {
-  background-image: url("../img/banner3.jpg");
+  background-image: url("../img/banner3-big.jpg");
   min-height: 90vh;
   height: 660px;
   background-size: cover;
