@@ -69,7 +69,7 @@ a:hover {
 
 /* TITLE SPACE FROM THE BOTTOM*/
 .header__div {
-  margin: 60px;
+  margin: 100px;
 }
 
 /* BANNER AT MAIN HEADER */
@@ -146,10 +146,6 @@ a:hover {
 
 .title-section {
   font-weight: bolder;
-}
-
-.portfolio__slides, .my-services__items  {
-  padding: 10px
 }
 
 .my-services__items {
