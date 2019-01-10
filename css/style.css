@@ -1,4 +1,4 @@
-/* GERAL */
+/* GERAL*/
 
 * {
   box-sizing: border-box;
@@ -13,19 +13,19 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-h1, h2 {
+/* h1, h2 {
   color: white;
-}
+} */
 
 p, li{
   font-family: 'Open Sans', sans-serif;
   color: #263039;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: white;
-}
+} */
 
 a:hover {
   text-decoration: none;
@@ -34,9 +34,9 @@ a:hover {
 /* ESPECIFICOS */
 
 /*---- FONT COLORS ---- */
-.navbar-light .navbar-brand {
+/* .navbar-light .navbar-brand {
   color: white;
-}
+} */
 
 /*--- STYLE FROM BRAND */
 .navbar-brand {
@@ -46,13 +46,13 @@ a:hover {
 }
 
 /*---- FONT COLORS ---- */
-.navbar-light .navbar-nav .nav-link.color-white {
+/* .navbar-light .navbar-nav .nav-link.color-white {
   color: white;
 }
 
 .navbar-light .navbar-nav .nav-link.color-white:hover {
   color: #E4E6C3;
-}
+} */
 
 /*----- SPACE BETWEEN ITEMS - NAVBAR ----- */
 .nav-primary .navbar-collapse { 

@@ -1,0 +1,72 @@
+/*----- 1. Main ------*/
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+font-weight: 800;
+    letter-spacing: 1px;
+}
+
+p, a, li {
+    font-size: 15px;
+    font-weight: 300;
+	line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #797979;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+	line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #797979;
+}
+
+/*----- 2. Navbar ------*/
+
+
+
+/*----- 3. Header ------*/
+
+.header-box {
+ background-color: #FFFF;
+ text-align: center;
+}
+
+.header__title {
+    color: #0A1612;
+}
+
+.header__subtitle {
+    color: #1A2920;
+}
+
+/*---- 3.2. Banner -----*/
+
+.header-background {
+    background-image: url(../img/banner3-big.jpg);
+    min-height: 80vh;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+}

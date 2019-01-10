@@ -12,42 +12,40 @@
   <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="theme-color" content="#ffffff">
-  <title>Bruna Gil - Portfólio</title>
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+  <title>Bruna Gil Portfolio</title>
+
   <!-- css -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
 
-  <!---- NAVBAR // BRAND ---->
-  <section class="navbar__top">
-    <nav class="nav-primary navbar navbar-expand-lg navbar-light bg-transparent">
+  <!-- NAVBAR -->
+  <section class="topbar">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand color-white" href="#">Bruna Gil</a>
+        <!-- BRAND NAME-->
+        <a class="navbar-brand color-white" href="#">BG</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- MENU ITEMS -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link color-white" href="#about">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link color-white" href="#resume">Habilidades</a>
+              <a class="nav-link color-white" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link color-white" href="#services">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link color-white" href="#contact">Contato</a>
+              <a class="nav-link color-white" href="#contact">Porfólio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link color-white" href="#projects">Projetos</a>
+              <a class="nav-link color-white" href="#projects">Contato</a>
             </li>
         </div>
       </div>
@@ -55,12 +53,13 @@
   </section>
 
   <!---- HEADER ----->
-  <div class="container__header">
-    <div class="header__div">
-      <h1 class="header_titulo">Bruna Gil</h1>
-      <h2 class="header__subtitulo">Desenvolvendo websites e negócios</h2>
+  <header>
+    <div class="header-background">
+      <div class="header-box">
+        <h1 class="header__title">Bruna Gil</h1>
+        <h2 class="header__subtitle">Desenvolvedora Front-End</h2>
+      </div>
     </div>
-  </div>
   </header>
 
   <!----- ABOUT ME ----->
@@ -73,7 +72,9 @@
         <div class="col-lg-8">
           <h3>Sobre mim</h3>
           <p>Formada em Relações Internacionais pela Universidade Federal de São Paulo (UNIFESP), sempre nutri
-            interesse pela área de tecnologia e inovação e fiz desse tema o meu projeto final. Com o tempo, esse interesse me conduziu a transição de carreira pelos caminhos do desenvolvimento web. Em 2018, entrei para a turma 6 da {reprograma}, um bootcamp de 18 semanas focado no desenvolvimento de mulheres front-end.</p>
+            interesse pela área de tecnologia e inovação e fiz desse tema o meu projeto final. Com o tempo, esse
+            interesse me conduziu a transição de carreira pelos caminhos do desenvolvimento web. Em 2018, entrei para a
+            turma 6 da {reprograma}, um bootcamp de 18 semanas focado no desenvolvimento de mulheres front-end.</p>
           <div class="d-flex space-div social-media">
             <a href="https://github.com/brunagil"><img src="img/github-icon.png" class="media-object  img-responsive img-thumbnail"></a>
             <a href="https://www.linkedin.com/in/brunaggil"><img src="img/linkedin-icon.png" class="media-object  img-responsive img-thumbnail"></a>
@@ -202,7 +203,7 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div>
   </section>
 
 
@@ -239,7 +240,7 @@
       </div>
 
 
-   <!-- FOOTER -->
+      <!-- FOOTER -->
       <footer class="footer footer-color">
         <div class="container">
           <div class="d-flex justify-content-between align-items-center footer__size">
