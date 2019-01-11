@@ -115,7 +115,7 @@ label {
 /*---- 4. About ----*/
 
 .div__container_mt {
-    margin-top: 100px;
+    margin: 100px auto 50px auto;
 }
 
 /* social media icons size */
@@ -129,25 +129,34 @@ label {
 }
 
 .social-media__img_border:hover {
-    border: 1px solid red;
+    border: 1px solid #FF6A5C;
 }
 
 /* profile picture */
 .div__container_profile-img img {
     padding: 10px;
     border: none;
-    border-top: 1px solid red;
-    border-left: 1px solid red;
+    border-top: 2px solid #FF6A5C;
+    border-left: 2px solid #FF6A5C;
     border-radius: 0;
 }
 
 /*---- 5. My Services ----*/
 
+.sections__background_color {
+    background-color: #EAEAEA;
+    background-image: url(../img/background2.png);
+}
+
 .services__title {
     font-size: 15px;
     font-weight: 300;
     color: #056571;
+}
 
+.services__title_position {
+    position: absolute;
+    top: -20px;
 }
 
 .services__display_f {
@@ -168,7 +177,26 @@ label {
 
 }
 
-/* 6. Portfólio */
+/* 7. Skills */
+
+/* bootstrap class */
+
+.progress-bar {
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    background-color: #FF6A5C;
+
+}
+    .progress {
+        height: 20px;
+        margin-top: 15px;
+    }
+
+
+/* 8. Portfólio */
 
 .portfolio {
     padding-top: 80px; }
@@ -182,20 +210,39 @@ label {
     padding: 0; }
   
   .portfolio-box-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     opacity: 0;
     top: 0;
     width: 100%;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 4vw;
     text-align: center;
     transition: 0.5s; }
+    
     .portfolio-box-caption:hover {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.8);
       transition: 0.5s; }
       .portfolio-box-caption:hover h3, .portfolio-box-caption:hover p {
         color: #fff; }
+
+
+
+/* 9. Contact */
+
+/*-- Error span @ contact form --*/
+
+span.error {
+    font-size: 12px;
+    font-weight: bold;
+    color:red;
+    letter-spacing: 1px;
+}
+  
+  input.error, textarea.error {
+    border-color: red;
+}
+  

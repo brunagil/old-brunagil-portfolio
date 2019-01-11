@@ -42,10 +42,10 @@
               <a class="nav-link color-white" href="#services">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link color-white" href="#contact">Porfólio</a>
+              <a class="nav-link color-white" href="#portfolio">Porfólio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link color-white" href="#projects">Contato</a>
+              <a class="nav-link color-white" href="#contact">Contato</a>
             </li>
         </div>
       </div>
@@ -54,7 +54,7 @@
 
   <!---- HEADER ----->
   <header>
-    <div class="header-background">
+    <div class="header-background" id="header">
       <div class="header-box">
         <h1 class="header__title">Bruna Gil</h1>
         <h2 class="header__subtitle">Front-End Developer</h2>
@@ -78,7 +78,8 @@
             resolver conflitos e criar soluções inovadoras.
             <br>
             <br>
-            Em 2018, fui selecionada para fazer parte do bootcamp intensivo da {reprograma} e hoje atuo como <span>Desenvolvedora Front-End</span>. Acredito e desejo unir o aprendizado técnico de novas linguagens à construção de
+            Em 2018, fui selecionada para fazer parte do bootcamp intensivo da {reprograma} e hoje atuo como <span>Desenvolvedora
+              Front-End</span>. Acredito e desejo unir o aprendizado técnico de novas linguagens à construção de
             soluções tecnológicas mais justas e acessíveis para todos.</p>
           <!-- social media -->
           <div class="d-flex space-div social-media__img">
@@ -93,7 +94,7 @@
   </section>
 
   <!--- MY SERVICES ----->
-  <section class="" id="resume">
+  <section class="sections__background_color" id="services">
     <div class="container div__container_mt">
       <div class="row">
         <div class="col-lg-6">
@@ -104,13 +105,13 @@
           <div class="services__display_f">
             <div class="services__box">
               <img src="./img/web.png" alt="ícone de um computador com uma tag de abertura de código na tela">
-              <h3 class="services__title">Web development</h3>
+              <h4 class="services__title">Web development</h4>
               <p>Transforme seu site em uma vitrine do seu trabalho! Desenvolvo landing pages e
                 websites do zero</p>
             </div>
             <div class="services__box">
               <img src="./img/content.png" alt="">
-              <h3 class="services__title">Conteúdo Web</h3>
+              <h4 class="services__title">Conteúdo Web</h4>
               <p>Não sabe o que escrever no seu site? Crio conteúdo para seu website e blog
                 utilizando as melhores estratégias de marketing digital</p>
             </div>
@@ -119,24 +120,26 @@
           <div class="services__display_f">
             <div class="services__box">
               <img src="./img/mobile.png" alt="">
-              <h3 class="services__title">Mobile First</h3>
+              <h4 class="services__title">Mobile First</h4>
               <p>Websites e aplicações web com layout responsivo</p>
             </div>
             <div class="services__box">
               <img src="./img/better.png" alt="">
-              <h3 class="services__title">Otimização</h3>
+              <h4 class="services__title">Otimização</h4>
               <p>Melhore o desempenho da sua página</p>
             </div>
           </div>
         </div>
 
-      <!-- CODE SKILLS -->
+        <!-- CODE SKILLS -->
         <div class="col-lg-6">
-          <div class="">
-            <div class="">
-              <h3 class="">Skills</h4>
-                <p class="">Essas são algumas habilidades de desenvolvimento web que domino:</p>
-                <div class="skills__progress">
+          <div class="skills">
+            <h3 class="">Skills</h3>
+          </div>
+          <div>
+            <p>Essas são algumas habilidades de desenvolvimento web que domino:</p>
+          </div>  
+          <div class="skills__progress">
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                       aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">HTML</div>
@@ -169,13 +172,17 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
   </section>
 
   <!-- PORTFOLIO - MODAL -->
 
   <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h3 class="">Portfólio</h3>
+    <div class="container div__container_mt">
+      <div>
+        <h3 class="">Portfólio</h3>
+      </div>
       <div class="row">
 
         <!-- Job 1 -->
@@ -184,7 +191,7 @@
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
-                <h3>Aplicação Web - YouTube Search</h3>
+                <h4>Aplicação Web - YouTube Search</h4>
               </div>
               <div class="project-name">
                 <p class="project-description font-weight-light">Aplicação em JavaScript vanilla e API do YouTube</p>
@@ -203,7 +210,7 @@
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
-                <h3>Cliente - ONG Aliança da Terra</h3>
+                <h4>Cliente - ONG Aliança da Terra</h4>
               </div>
               <div class="project-name">
                 <p>Desenvolvimento de 4 páginas web com HTML, CSS, JavaScript, Bootstrap e layout responsivo</p>
@@ -218,10 +225,10 @@
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
-                <h3>To Do List - Lista de Tarefas</h3>
+                <h4>Aplicação Web - To Do List</h4>
               </div>
               <div class="project-name">
-                <p>Desenvolvimento de lista de tarefas dinâmica, com JavaScript vanilla</p>
+                <p>Desenvolvimento de lista de tarefas dinâmica, com JavaScript vanilla. Layout responsivo </p>
                 <a class="btn btn-light" href="https://github.com/brunagil/reprograma-to-do-list" role="button">Ver
                   projeto
                 </a>
@@ -234,10 +241,10 @@
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
-                <h3>Mundo Gelado</h3>
+                <h4>Mundo Gelado</h4>
               </div>
               <div class="project-name">
-                <p>Desenvolvimento em html e css com layout responsivo (mobile first)</p>
+                <p>Desenvolvimento de uma Landing page em html e css com layout responsivo (mobile first)</p>
                 <a class="btn btn-light" href="" role="button">Ver
                   projeto
                 </a>
@@ -250,13 +257,13 @@
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-category text-faded">
-                <h3>RevElla</h3>
+                <h4>RevElla</h4>
               </div>
               <div class="project-name">
-                <p>Projeto de conclusão da {reprograma} - Protótipo de negócio que reune denúncias de assédio no trabalho e cria dados e ferramentas para que as empresas possam combater essa violência
+                <p>Projeto de conclusão da {reprograma} - Protótipo de negócio que reune denúncias de assédio no
+                  trabalho e cria dados e ferramentas para que as empresas possam combater essa violência
                 </p>
-                <a class="btn btn-light" href="https://revella.netlify.com/"
-                  role="button">Ver projeto
+                <a class="btn btn-light" href="https://revella.netlify.com/" role="button">Ver projeto
                 </a>
               </div>
             </div>
@@ -270,45 +277,60 @@
   <!-- CONTACT // FORM  -->
   <section class="form-and-projects" id="contact">
     <div class="contact">
-      <div class="container p-5">
-        <p class="title-section">Entre em contato!</p>
-        <form class="formulario" name="contact" netlify>
-          <div class="form-group">
-            <label for="inputName">Nome</label>
-            <input type="text" name="name" class="form-control" id="inputName" placeholder="Escreva seu nome">
+      <div class="container div__container_mt">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="title-section">Vamos conversar?</p>
+              <form class="formulario" name="contact" netlify>
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="inputName" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="phone" class="form-control f-phone" id="inputPhone" placeholder="Contato">
+                </div>
+                <div class="form-group">
+                  <label for="msgContact">No que posso te ajudar?</label>
+                  <textarea class="form-control" name="text" id="msgContact" rows="3"></textarea>
+                </div>
+                <button class="btn btn-color">Enviar</button>
+              </form>
           </div>
-          <div class="form-group">
-            <label for="inputEmail">Email</label>
-            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Escreva seu email">
-          </div>
-          <div class="form-group">
-            <label for="inputPhone">Telefone</label>
-            <input type="text" name="phone" class="form-control f-phone" id="inputPhone" placeholder="Escreva seu telefone">
-          </div>
-          <div class="form-group">
-            <label for="msgContact">No que posso te ajudar? :) </label>
-            <textarea class="form-control" name="text" id="msgContact" rows="3"></textarea>
-          </div>
-          <button class="btn btn-color">Enviar</button>
-        </form>
-      </div>
 
+          <div class="col-lg-6">
+            <h3>Email</h3>
+            <p>bruna.brgil@gmail.com</p>
 
-      <!-- FOOTER -->
-      <footer class="footer footer-color">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center footer__size">
-            <div class="d-flex">
-              <p class="footer__copy-psize"> site & design © Bruna Gil 2018</p>
+            <div class="d-flex space-div social-media__img">
+              <a href="https://github.com/brunagil"><img src="img/github-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
+              <a href="https://www.linkedin.com/in/brunaggil"><img src="img/linkedin-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
+              <a href="https://twitter.com/brunaggil"><img src="img/twitter-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
+              <a href="https://medium.com/@brunaggil"><img src="img/medium-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
             </div>
           </div>
+        </section>
+
+
+<!-- FOOTER -->
+  <footer class="footer footer-color">
+    <div class="container div__container_mt">
+      <div class="d-flex align-items-center footer__size">
+        <div class="d-flex">
+          <p class="footer__copy-psize"> site & design © Bruna Gil 2019</p>
+            <a class="navbar-brand color-white" href="#header">BG</a>
         </div>
-      </footer>
+      </div>
+    </div>
+  </footer>
 
 
-      <!-- js -->
-      <script src="js/jquery.slim.min.js"></script>
-      <script src="js/jquery.validate.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/script.js"></script>
+          <!-- js -->
+          <script src="js/jquery.slim.min.js"></script>
+          <script src="js/jquery.validate.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/script.js"></script>
+
 </body>
+</html>
