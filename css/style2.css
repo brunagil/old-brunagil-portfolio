@@ -92,6 +92,7 @@ label {
 }
 
 /*---- 3.2. Banner -----*/
+/*Photo by rawpixel on Unsplash*/
 
 .header-background {
     background-image: url(../img/banner8.jpg);
@@ -161,3 +162,40 @@ label {
 .services__box img {
     padding: 10px 5px;
 }
+
+.services__background {
+    background-color: #f1f1f1;
+
+}
+
+/* 6. Portfólio */
+
+.portfolio {
+    padding-top: 80px; }
+    .portfolio img {
+      object-fit: cover;
+      width: 100%;
+      height: 300px;
+      vertical-align: middle; }
+  
+  .img-port {
+    padding: 0; }
+  
+  .portfolio-box-caption {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    text-align: center;
+    transition: 0.5s; }
+    .portfolio-box-caption:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: 0.5s; }
+      .portfolio-box-caption:hover h3, .portfolio-box-caption:hover p {
+        color: #fff; }
