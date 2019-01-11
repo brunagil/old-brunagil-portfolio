@@ -15,7 +15,7 @@ h4,
 h5,
 h6,
 span {
-font-weight: 800;
+    font-weight: 800;
     letter-spacing: 1px;
 }
 
@@ -44,9 +44,17 @@ label {
     margin: 100px auto 50px auto;
 }
 
+/* navbar menu items*/
+.item__space {
+    margin: 0 30px;
+
+}
+
 /*----- 2. Navbar ------*/
 
-
+.navbar {
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
+}
 
 /*----- 3. Header ------*/
 
@@ -159,10 +167,10 @@ label {
     color: #056571;
 }
 
-.services__title_position {
+/* .services__title_position {
     position: absolute;
     top: -20px;
-}
+} */
 
 .services__display_f {
     display: flex;
@@ -231,8 +239,8 @@ label {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.8);
       transition: 0.5s; }
-      .portfolio-box-caption:hover h3, .portfolio-box-caption:hover p {
-        color: #fff; }
+    .portfolio-box-caption:hover h4, .portfolio-box-caption:hover p {
+    color: #fff; }
 
 
 
@@ -250,7 +258,34 @@ span.error {
   input.error, textarea.error {
     border-color: red;
 }
-  
+
+/* bootstrap class*/
+
+.send-button__div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn__style {
+    background-color: #CCDFCB;
+    color: #0A1612;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+    .btn__style:hover {
+    background-color: #056571;
+    color: #EAEAEA;
+
+}
+
+.form-control:focus { 
+    color: #495057;
+    background-color: #fff;
+    border-color: #ff6a5c;
+    outline: 0;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.25);
+}
+
 
 /* 10. Footer */
 
