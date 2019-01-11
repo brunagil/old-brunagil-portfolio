@@ -22,8 +22,8 @@ font-weight: 800;
 p, a, li {
     font-size: 15px;
     font-weight: 300;
-	line-height: 23px;
-    letter-spacing: 0.2px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
     color: #797979;
 }
 
@@ -117,7 +117,7 @@ label {
     margin-top: 100px;
 }
 
-
+/* social media icons size */
 .social-media__img img {
     width: 100px;
     max-width: 35%;
@@ -131,11 +131,33 @@ label {
     border: 1px solid red;
 }
 
-
+/* profile picture */
 .div__container_profile-img img {
     padding: 10px;
     border: none;
     border-top: 1px solid red;
     border-left: 1px solid red;
     border-radius: 0;
+}
+
+/*---- 5. My Services ----*/
+
+.services__title {
+    font-size: 15px;
+    font-weight: 300;
+    color: #056571;
+
+}
+
+.services__display_f {
+    display: flex;
+    
+}
+
+.services__box {
+    padding: 10px;
+}
+
+.services__box img {
+    padding: 10px 5px;
 }
