@@ -19,12 +19,12 @@ font-weight: 800;
     letter-spacing: 1px;
 }
 
-p, a, li {
+p, a, li, ::placeholder {
     font-size: 15px;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 0.5px;
-    color: #797979;
+    color: #414141;
 }
 
 label {
@@ -33,6 +33,15 @@ label {
 	line-height: 23px;
     letter-spacing: 0.2px;
     color: #797979;
+}
+
+/* spacing cols and containers */
+.col__padding {
+    padding: 30px;
+}
+
+.div__container_mt {
+    margin: 100px auto 50px auto;
 }
 
 /*----- 2. Navbar ------*/
@@ -113,10 +122,6 @@ label {
 
 
 /*---- 4. About ----*/
-
-.div__container_mt {
-    margin: 100px auto 50px auto;
-}
 
 /* social media icons size */
 .social-media__img img {
@@ -246,3 +251,15 @@ span.error {
     border-color: red;
 }
   
+
+/* 10. Footer */
+
+.footer__display {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer__size {
+    padding: 25px;
+}

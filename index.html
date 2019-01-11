@@ -24,7 +24,7 @@
 
   <!-- NAVBAR -->
   <section class="topbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <!-- BRAND NAME-->
         <a class="navbar-brand color-white" href="#">BG</a>
@@ -71,7 +71,7 @@
           <img src="img/foto-perfil3.png" alt="foto de perfil da Bruna Gil" class="img-thumbnail img-fluid">
         </div>
         <!-- resume -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 col__padding">
           <h3>Sobre mim</h3>
           <p>Formada em Relações Internacionais pela Universidade Federal de São Paulo (UNIFESP), sempre nutri
             interesse pela área de <span>tecnologia, segurança e cooperação internacional</span> como maneiras de
@@ -97,7 +97,7 @@
   <section class="sections__background_color" id="services">
     <div class="container div__container_mt">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col__padding">
           <div class="services-title">
             <h3>Meus serviços</h2>
           </div>
@@ -132,7 +132,7 @@
         </div>
 
         <!-- CODE SKILLS -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 col__padding">
           <div class="skills">
             <h3 class="">Skills</h3>
           </div>
@@ -186,7 +186,7 @@
       <div class="row">
 
         <!-- Job 1 -->
-        <div class="img-port col-lg-6 col-sm-12 position-relative " id="job1">
+        <div class="img-port col-lg-6 col-sm-12 position-relative" id="job1">
           <img src="./img/projeto1-videosearch.gif">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
@@ -274,12 +274,12 @@
     </div>
   </section>
 
-  <!-- CONTACT // FORM  -->
-  <section class="form-and-projects" id="contact">
-    <div class="contact">
+  <!-- CONTACT FORM  -->
+  <section id="contact">
       <div class="container div__container_mt">
+        <!-- form -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col__padding">
             <h3 class="title-section">Vamos conversar?</p>
               <form class="formulario" name="contact" netlify>
                 <div class="form-group">
@@ -298,11 +298,12 @@
                 <button class="btn btn-color">Enviar</button>
               </form>
           </div>
-
-          <div class="col-lg-6">
-            <h3>Email</h3>
-            <p>bruna.brgil@gmail.com</p>
-
+          <!-- my contact -->
+          <div class="col-lg-6 col__padding">
+            <div class="my-contact__email">
+              <h3>Email</h3>
+              <p>bruna.brgil@gmail.com</p>
+            </div>
             <div class="d-flex space-div social-media__img">
               <a href="https://github.com/brunagil"><img src="img/github-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
               <a href="https://www.linkedin.com/in/brunaggil"><img src="img/linkedin-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
@@ -310,17 +311,16 @@
               <a href="https://medium.com/@brunaggil"><img src="img/medium-icon.png" class="media-object img-responsive img-thumbnail social-media__img_border"></a>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
 
 <!-- FOOTER -->
-  <footer class="footer footer-color">
-    <div class="container div__container_mt">
-      <div class="d-flex align-items-center footer__size">
-        <div class="d-flex">
-          <p class="footer__copy-psize"> site & design © Bruna Gil 2019</p>
-            <a class="navbar-brand color-white" href="#header">BG</a>
-        </div>
+  <footer class="sections__background_color footer__size">
+    <div class="container">
+      <div class="footer__display">
+        <p class="">© 2018 All Rights Reserved - Bruna Gil </p>
       </div>
     </div>
   </footer>
