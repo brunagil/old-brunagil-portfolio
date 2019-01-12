@@ -62,6 +62,7 @@ label {
  position: relative;
  background-color: #FFFF;
  text-align: center;
+ border: 1px solid transparent;
  padding: 50px;
  transition: 0.6s;
 }
@@ -167,17 +168,13 @@ label {
     color: #056571;
 }
 
-/* .services__title_position {
-    position: absolute;
-    top: -20px;
-} */
-
 .services__display_f {
     display: flex;
     
 }
 
 .services__box {
+    width: 100%;
     padding: 10px;
 }
 
@@ -220,8 +217,6 @@ label {
     margin-bottom: 2rem;
 }
 
-.portfolio {
-    padding-top: 80px; }
     .portfolio img {
       object-fit: cover;
       width: 100%;
@@ -252,8 +247,6 @@ label {
     .portfolio-box-caption:hover h4, .portfolio-box-caption:hover p {
     color: #fff; }
 
-
-
 /* 9. Contact */
 
 /*-- Error span @ contact form --*/
@@ -277,7 +270,7 @@ span.error {
 }
 
 .btn__style {
-    background-color: #CCDFCB;
+    background-color: #cbdbdf;
     color: #0A1612;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
